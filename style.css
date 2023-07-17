@@ -84,3 +84,53 @@ width: 400px;
 height: 400px;
 padding: 200px 130px 130px 100px;
 }
+/* sponsor  style*/
+.sponsor-container{
+   padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+/* media query  section*/
+/* small device */
+
+@media screen and (max-width: 576px) {
+    .nav-title{
+        text-align: center;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        padding-left: 0;
+    }
+    .banner-image{
+    /* padding: 0px; */
+    margin-right: 20px;
+    }
+    .banner-content{
+   width: 100%;
+    }
+    .banner-title{
+        width: 100%;
+        margin-top: 1.1rem;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 25px;
+    }
+    .banner-content>p{
+        margin: 0 auto;
+    }
+    .primary-btn{
+        margin-left: 200px;
+    }
+    .sponsor-container{
+        flex-wrap: wrap;
+    }
+}
